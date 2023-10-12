@@ -1,1 +1,7 @@
-console.log('this is working');
+import loadWebsite from "./pageLoad";
+
+loadWebsite();
+
+
+
+
