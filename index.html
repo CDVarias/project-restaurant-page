@@ -4,173 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project: Restaurant Page</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
-        *{
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: 'Roboto', sans-serif;
-        }
-        .menu-bar{
-            background-color: #d6001c;
-            display: flex;
-            justify-content: space-evenly;
-            align-items: center;
-            padding: 20px;
-            border-bottom: 4px solid #FA8003;
-        }
-        
-        ul{
-            list-style-type: none;
-        }
-
-        li > a{
-            text-decoration: none;
-            color: white;
-        }
-
-        .logo > img{
-            max-height: 60px;
-            width: auto;
-        }
-        
-        .menu > ul{
-            display: flex;
-            gap: 50px;
-            font-weight: bolder;
-            font-size: larger;
-        }
-
-        .menu button{
-            background: #FA8003;
-            padding: 12px 40px;
-            border-radius: 30px;
-            margin-top: -20px;
-            border: #fff;
-            color: #fff;
-            font-size: 18px;
-            font-weight: bolder;
-        }
-
-        .menu button:hover, .message button:hover, .see-all button:hover{
-            cursor: pointer;
-            background: #ff620f;
-        }
-        .cover-page{
-            background-image: url(https://queen.jollibee.com.ph/2021/12/home_banner_1.png);
-            background-position: center center;
-            background-repeat: no-repeat;
-            background-size: cover;
-            display: flex;
-            align-items: center;
-            justify-content: space-around;
-            padding: 100px 30px 100px 30px;
-        }
-
-        .message{
-            color: white;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            text-align: center;
-            gap: 30px;
-            margin-left: 50px;
-           
-        }
-
-        .message > h1{
-            font-size: 50px;
-        }
-
-        .message > h2{
-            line-height: 1.6;
-        }
-
-        .message > button {
-            background: #FA8003;
-            padding: 12px 40px;
-            border-radius: 30px;
-            border: #fff;
-            color: #fff;
-            font-size: 32px;
-            font-weight: bolder;
-        }
-
-        .options{
-            background-color: #fff;
-            max-width: 1320px;
-            margin-right: auto;
-            margin-left: auto;
-            margin-top: 40px;
-        }
-
-        .first-row{
-            display: flex;
-            align-items: center;
-            justify-content: space-around;
-            text-align: center;
-            margin-bottom: 40px;
-            gap: 40px;
-            margin-left: -50px;
-        }
-
-        .first-row  .item {
-            font-size: 30px;
-        }
-
-        .ex-promo{
-            margin-top: 40px;
-            text-align: center;
-        }
-
-        .promos{
-            margin-top: 40px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            gap: 100px;
-            max-width: 1320px;
-        }
-
-        .promos img {
-            height:405.078px;
-            width:323.984px;
-            border-radius: 25px;
-        }
-
-        .see-all{
-            margin-top: 40px;
-            text-align: center;
-        }
-
-        .see-all > button {
-            background: #FA8003;
-            padding: 12px 40px;
-            border-radius: 30px;
-            border: #fff;
-            color: #fff;
-            font-size: 32px;
-       
-        }
-
-
-
-    </style>
     <div id = "content" class = "content">
-        <div class="menu-bar">
+        <!-- <div class="menu-bar">
             <div class="logo">
                 <img width="450" height="120" src="https://queen.jollibee.com.ph/2022/08/bmpzMYBj-jollibee-logo-2x.png" class="custom-logo" alt="">
             </div>
             <div class="menu">
                 <ul>
-                    <li><a href="">Delivery</a></li>
-                    <li><a href="">Locations</a></li>
+                    <li><a href="">Home</a></li>
                     <li><a href="">Menu</a></li>
-                    <li><a href="">Promotions</a></li>
                     <li><button>Order Now</button></li>
                 </ul>
             </div>
@@ -231,7 +76,117 @@
             <div class="see-all">
                 <button>See All Promos</button>
             </div>
-        </div>
+        </div> -->
+    
+        <!-- <div class="food-menu">
+           <div class="title">
+            <h1>Bestsellers</h1>
+           </div>
+           <div class="choices">
+            <div class="first-choice">
+                <div class="info-logo">
+                    <img src="https://queen.jollibee.com.ph/2022/01/tootip.png" class="menu-tooltip">
+                </div>
+                <div class="food-pic">
+                    <img width="170" height="170" src="https://queen.jollibee.com.ph/2023/05/8pc.-Chickenjoy-Bucket-w-Jolly-Spaghetti-Family-Pan-min.png" class="attachment-large size-large" alt="" loading="lazy">
+                </div>
+                <div class="food-name">
+                    <h2>6-pc. Chickenjoy Bucket w/ Jolly Spaghetti Family</h2>
+                </div>
+                <div class="food-description">
+                    <p>
+                        Jollibee Meal Time Bundle brings you your favorite crispylicious, juicylicious Chickenjoy with the meatiest, cheesiest, sweet-sarap Jolly Spaghetti!
+                    </p>
+                </div>
+            </div>
+            
+            <div class="second-choice">
+                <div class="info-logo">
+                    <img src="https://queen.jollibee.com.ph/2022/01/tootip.png" class="menu-tooltip">
+                </div>
+                <div class="food-pic">
+                    <img width="170" height="170" src="https://queen.jollibee.com.ph/2023/05/8pc.-Chickenjoy-Bucket-w-Jolly-Spaghetti-Family-Pan-min.png" class="attachment-large size-large" alt="" loading="lazy">
+                </div>
+                <div class="food-name">
+                    <h2>8-pc. Chickenjoy Bucket w/ Jolly Spaghetti Family</h2>
+                </div>
+                <div class="food-description">
+                    Jollibee Meal Time Bundle brings you your favorite crispylicious, juicylicious Chickenjoy with the meatiest, cheesiest, sweet-sarap Jolly Spaghetti!
+                </div>
+            </div>
+
+            <div class="third-choice">
+                <div class="info-logo">
+                    <img src="https://queen.jollibee.com.ph/2022/01/tootip.png" class="menu-tooltip">
+                </div>
+                <div class="food-pic">
+                    <img width="170" height="170" src="https://queen.jollibee.com.ph/2022/02/6-pc.-Chickenjoy-with-Palabok-Family-Pan-1-min.png" class="attachment-full size-full" alt="Picture of 6 - pc. Chickenjoy and Palabok Family Pan" loading="lazy">
+                </div>
+                <div class="food-name">
+                    <h2>6-pc. Chickenjoy Bucket w/ Palabok Family Pan</h2>
+                </div>
+                <div class="food-description">
+                   6-pcs. of the Philippines' best-tasting crispylicious,juicylicious Chickenjoy paired with your classic favorite saucy-sarap Palabok Family Pan tasty toppings!
+                </div>
+            </div>
+
+
+           </div> -->
+
+        <!-- <div class="order">
+            <div class="container">
+                <div class="first-part">
+                    <div class="header">
+                        <img src="https://jb-ph-cdn.tillster.com/prod/Carousel/Seoul_Omnibus_%20Desktop%20Banner_opt.webp_a9790bf7-e647-4579-a015-aa7faa18d770.webp" alt="" class="header-first-img">
+                    </div>
+                    <div class="new-order">
+                        <button class = "new-orderBtn">START NEW ORDER</button>
+                    </div>
+                </div>
+                <div class="second-part">
+                    <div class="first-row">
+                        <div class="first-img">
+                            <div class="select-container1">
+                                <button class="select">SELECT</button>
+                            </div>
+                            <img src="https://jb-ph-cdn.tillster.com/prod/Carousel/FA-JB_PH_INCREASE_SPOTLIGHT_TILE_792x240_opt.jpg_c6a6a29b-bdcd-4980-9f29-bc7e92977b20.jpg" alt="" width="880" height="275.19">
+                        </div>
+                        <div class="second-img">
+                            <div class="select-container2">
+                                <button class="select">SELECT</button>
+                            </div>
+                            <img src="https://jb-ph-cdn.tillster.com/qa/Carousel/JB_PH_INCREASE_FAMILY_MEALS_TILE_FA_736x490_opt.jpg_0f513f1c-9b7a-49ee-8c66-f4ddf0e06266.jpg" alt="">
+                        </div>
+                        <div class="third-img">
+                            <div class="select-container3">
+                                <button class="select">SELECT</button>
+                            </div>
+                            <img src="https://jb-ph-cdn.tillster.com/prod/Carousel/FA-JB_PH_INCREASE_CHICKENJOY_TILE_384x240_opt.jpg_cf81a220-9c12-4ffa-ac62-cd26708fe922.jpg" alt="" width="440" height="275.17">
+                        </div>
+                        <div class="fourth-img">
+                            <div class="select-container4">
+                                <button class="select">SELECT</button>
+                            </div>
+                            <img src="https://jb-ph-cdn.tillster.com/qa/Carousel/JB_PH_INCREASE_BURGER_TILE_FA_736x490_opt.jpg_0bca19df-8933-445c-8b2b-9a8a1f23d796.jpg" alt="">
+                        </div>
+                        <div class="fifth-img">
+                            <div class="select-container5">
+                                <button class="select">SELECT</button>
+                            </div>
+                            <img src="https://jb-ph-cdn.tillster.com/prod/Carousel/JBPH_0324_JBPH_THUMBNAIL_APRIL%20UPDATE_736x490px_opt.jpg_9b6e5c53-7b6b-45d3-bcaf-0b9883f77f11.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="second-row">
+                        <div class="left-part">
+                            <p>View Full Menu</p>
+                        </div>
+                        <div class="right-part">
+                            <img src="https://www.jollibeedelivery.com/1693494639/img/home-page/info.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
     </div>
     <script src="main.js"></script>
 </body>
