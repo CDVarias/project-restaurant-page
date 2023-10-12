@@ -314,40 +314,40 @@ button.active{
 .select-container1{
     z-index: 1;
     position: absolute;
-    left: 26rem;
-    bottom: 10rem;
+    left: 16rem;
+    bottom: 1rem;
     margin-left: 0;
 }
 
 .select-container2{
     z-index: 1;
     position: absolute;
-    left: 83rem;
-    bottom: 10rem;
+    left: 72rem;
+    bottom: 1rem;
     margin-left: 0;
 }
 
 .select-container3{
     z-index: 1;
     position: absolute;
-    left: 26rem;
-    bottom: -10rem;
+    left: 16rem;
+    bottom: -19rem;
     margin-left: 0;
 }
 
 .select-container4{
     z-index: 1;
     position: absolute;
-    left: 54.5rem;
-    bottom: -10rem;
+    left: 44rem;
+    bottom: -19rem;
     margin-left: 0;
 }
 
 .select-container5{
     z-index: 1;
     position: absolute;
-    left: 83rem;
-    bottom: -10rem;
+    left: 72rem;
+    bottom: -19rem;
     margin-left: 0;
 }
 
